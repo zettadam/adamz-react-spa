@@ -1,0 +1,43 @@
+@layer app {
+  .tasks-layout {
+    width: 100%;
+
+    & nav.page {
+      background-color: var(--color-tasks-a50);
+    }
+
+    & :focus-visible {
+      background-color: var(--color-tasks-a125);
+      outline: 1px solid var(--color-tasks);
+    }
+
+    & a.create {
+      background-color: var(--color-tasks-a50);
+      color: white;
+    }
+
+    & div.page {
+      border-color: var(--color-tasks);
+
+      & > h3 {
+        color: var(--color-tasks);
+      }
+    }
+
+    & form {
+      & .label {
+        color: var(--color-tasks);
+      }
+
+      & input[type="text"],
+      & input[type="number"],
+      & input[type="date"],
+      & input[type="datetime-local"],
+      & select,
+      & .text-editor .tiptap,
+      & .code-editor {
+        border-color: var(--color-tasks);
+      }
+    }
+  }
+}
