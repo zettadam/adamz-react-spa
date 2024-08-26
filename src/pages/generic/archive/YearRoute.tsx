@@ -8,7 +8,7 @@ export function Component() {
 
   return (
     <main>
-      <h4>Year: {year}</h4>
+      <h3>Year: {year}</h3>
       <p>Year page will be rendered here.</p>
       <nav>
         <NavLink to={`/${s}/archive`}>Archive</NavLink>

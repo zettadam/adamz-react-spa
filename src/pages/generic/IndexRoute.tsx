@@ -1,7 +1,7 @@
 export function Component() {
   return (
     <div className="page index">
-      <h3>Latest</h3>
+      <h2>Latest</h2>
       <p>Index page will be rendered here.</p>
     </div>
   )

@@ -5,7 +5,8 @@ export function Component() {
   const s = l.pathname.split('/')[1]
 
   return (
-    <div className="page">
+    <div className="page archive">
+      <h2>Archive</h2>
       <Outlet />
       <aside>
         <nav>

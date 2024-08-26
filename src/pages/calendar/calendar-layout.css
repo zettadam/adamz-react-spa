@@ -15,6 +15,10 @@
 
     & div.page {
       border-top: 0.25rem solid var(--color-calendar);
+
+      & > h2 {
+        color: var(--color-calendar);
+      }
     }
 
     & form {
@@ -22,10 +26,10 @@
         color: var(--color-calendar);
       }
 
-      & input[type="text"],
-      & input[type="number"],
-      & input[type="date"],
-      & input[type="datetime-local"],
+      & input[type='text'],
+      & input[type='number'],
+      & input[type='date'],
+      & input[type='datetime-local'],
       & select,
       & .text-editor .tiptap,
       & .code-editor {

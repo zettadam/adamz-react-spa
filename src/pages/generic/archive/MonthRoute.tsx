@@ -8,11 +8,11 @@ export function Component() {
 
   return (
     <main>
-      <h4>
+      <h3>
         Archive Month:{' '}
         {year ? <Link to={`/${s}/archive/${year}`}>{year}</Link> : null}
         {month ? ` / ${month}` : null}
-      </h4>
+      </h3>
       <p>Month page will be rendered here.</p>
     </main>
   )

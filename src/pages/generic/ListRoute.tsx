@@ -1,7 +1,8 @@
 export function Component() {
   return (
-    <main className="list">
+    <div className="page list">
+      <h2>List</h2>
       <p>List page will be rendered here.</p>
-    </main>
+    </div>
   )
 }

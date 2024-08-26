@@ -16,6 +16,7 @@ export function Component() {
         <span className="divider" />
         <input type="search" name="keyword" placeholder="Search calendar" />
       </nav>
+
       <Outlet />
     </div>
   )

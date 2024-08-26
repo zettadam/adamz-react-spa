@@ -10,8 +10,6 @@ export function Component() {
           Index
         </NavLink>
         <span className="divider" />
-        <NavLink to="/tasks/archive">Archive</NavLink>
-        <span className="divider" />
         <NavLink to="/tasks/new" className="create">
           + New task
         </NavLink>

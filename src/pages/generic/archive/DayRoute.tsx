@@ -8,7 +8,7 @@ export function Component() {
 
   return (
     <main>
-      <h4>
+      <h3>
         Archive Month:{' '}
         {year ? <Link to={`/${s}/archive/${year}`}>{year}</Link> : null}
         {year && month ? (
@@ -17,7 +17,7 @@ export function Component() {
           </Link>
         ) : null}
         {day ? ` / ${day}` : null}
-      </h4>
+      </h3>
       <p>Day page will be rendered here.</p>
     </main>
   )

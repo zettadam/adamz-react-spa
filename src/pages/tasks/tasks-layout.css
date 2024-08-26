@@ -19,7 +19,7 @@
     & div.page {
       border-color: var(--color-tasks);
 
-      & > h3 {
+      & > h2 {
         color: var(--color-tasks);
       }
     }
@@ -29,10 +29,10 @@
         color: var(--color-tasks);
       }
 
-      & input[type="text"],
-      & input[type="number"],
-      & input[type="date"],
-      & input[type="datetime-local"],
+      & input[type='text'],
+      & input[type='number'],
+      & input[type='date'],
+      & input[type='datetime-local'],
       & select,
       & .text-editor .tiptap,
       & .code-editor {
