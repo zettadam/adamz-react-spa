@@ -3,5 +3,5 @@ export default function AdminDeleteNotePage() {
     <main className="admin-notes-page">
       <h2>Admin Delete Note Page</h2>
     </main>
-  );
+  )
 }

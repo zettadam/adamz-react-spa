@@ -1,8 +1,8 @@
-import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from 'react-router-dom'
 
-export function Layout() {
-  const l = useLocation();
-  const s = l.pathname.split("/")[1];
+export function Component() {
+  const l = useLocation()
+  const s = l.pathname.split('/')[1]
 
   return (
     <div className="page">
@@ -15,5 +15,5 @@ export function Layout() {
         </nav>
       </aside>
     </div>
-  );
+  )
 }

@@ -3,5 +3,5 @@ export default function AdminEditLinkPage() {
     <main className="admin-page admin-links-page">
       <h2>Admin Edit Link Page</h2>
     </main>
-  );
+  )
 }

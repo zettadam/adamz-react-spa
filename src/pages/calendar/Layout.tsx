@@ -1,8 +1,8 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from 'react-router-dom'
 
-import "./calendar-layout.css";
+import './calendar-layout.css'
 
-export function Layout() {
+export function Component() {
   return (
     <div className="calendar-layout">
       <nav className="page">
@@ -18,5 +18,5 @@ export function Layout() {
       </nav>
       <Outlet />
     </div>
-  );
+  )
 }

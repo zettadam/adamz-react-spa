@@ -1,12 +1,12 @@
-import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Link, Outlet, useLocation } from 'react-router-dom'
 
 export function MainLayout() {
-  const location = useLocation();
-  const section = location.pathname.split("/")[1];
+  const location = useLocation()
+  const section = location.pathname.split('/')[1]
 
   return (
     <div className="main-layout">
-      <header className={section || "home"}>
+      <header className={section || 'home'}>
         <hgroup>
           <h1>Adam Ziolkowski</h1>
           <h2 className={section}>{section}</h2>
@@ -61,5 +61,5 @@ export function MainLayout() {
         </nav>
       </footer>
     </div>
-  );
+  )
 }

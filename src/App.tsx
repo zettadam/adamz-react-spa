@@ -1,22 +1,22 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { MainLayout } from "./pages/MainLayout";
-import HomePage from "./pages/home/HomePage";
+import { MainLayout } from './pages/MainLayout'
+import HomePage from './pages/home/HomePage'
 
-import calendarRoutes from "./pages/calendar/routes";
-import codeRoutes from "./pages/code/routes";
-import linksRoutes from "./pages/links/routes";
-import notesRoutes from "./pages/notes/routes";
-import postsRoutes from "./pages/posts/routes";
-import tasksRoutes from "./pages/tasks/routes";
-import adminRoutes from "./pages/admin/routes";
+import calendarRoutes from './pages/calendar/routes'
+import codeRoutes from './pages/code/routes'
+import linksRoutes from './pages/links/routes'
+import notesRoutes from './pages/notes/routes'
+import postsRoutes from './pages/posts/routes'
+import tasksRoutes from './pages/tasks/routes'
+import adminRoutes from './pages/admin/routes'
 
-import "./app.css";
+import './app.css'
 
 const router = createBrowserRouter([
   adminRoutes,
   {
-    path: "/",
+    path: '/',
     element: <MainLayout />,
     children: [
       {
@@ -31,10 +31,10 @@ const router = createBrowserRouter([
       tasksRoutes,
     ],
   },
-]);
+])
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router} />
 }
 
-export default App;
+export default App

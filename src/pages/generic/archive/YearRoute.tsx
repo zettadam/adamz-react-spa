@@ -1,10 +1,10 @@
-import { NavLink, useLocation, useParams } from "react-router-dom";
+import { NavLink, useLocation, useParams } from 'react-router-dom'
 
-export function YearPage() {
-  const l = useLocation();
-  const { year } = useParams();
+export function Component() {
+  const l = useLocation()
+  const { year } = useParams()
 
-  const s = l.pathname.split("/")[1];
+  const s = l.pathname.split('/')[1]
 
   return (
     <main>
@@ -26,5 +26,5 @@ export function YearPage() {
         <NavLink to={`/${s}/archive/${year}/dec`}>December</NavLink>
       </nav>
     </main>
-  );
+  )
 }

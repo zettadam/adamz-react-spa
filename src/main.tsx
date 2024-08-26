@@ -1,18 +1,18 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
-import App from "./App.tsx";
+import App from './App.tsx'
 
-import "./props.css";
+import './props.css'
 
-const rootEl = document.getElementById("root");
+const rootEl = document.getElementById('root')
 
 if (rootEl) {
   createRoot(rootEl).render(
     <StrictMode>
       <App />
     </StrictMode>,
-  );
+  )
 } else {
-  console.error('"root" element was not found.');
+  console.error('"root" element was not found.')
 }

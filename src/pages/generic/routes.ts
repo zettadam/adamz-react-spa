@@ -2,52 +2,52 @@ export default [
   {
     index: true,
     async lazy() {
-      const { IndexPage } = await import("./IndexPage");
-      return { Component: IndexPage };
+      const { Component } = await import('./IndexRoute')
+      return { Component }
     },
   },
   {
-    path: "archive",
+    path: 'archive',
     async lazy() {
-      const { Layout } = await import("./archive/Layout");
-      return { Component: Layout };
+      const { Component } = await import('./archive/Layout')
+      return { Component }
     },
     children: [
       {
         index: true,
         async lazy() {
-          const { IndexPage } = await import("./archive/IndexPage");
-          return { Component: IndexPage };
+          const { Component } = await import('./archive/IndexRoute')
+          return { Component }
         },
       },
       {
-        path: ":year",
+        path: ':year',
         async lazy() {
-          const { YearPage } = await import("./archive/YearPage");
-          return { Component: YearPage };
+          const { Component } = await import('./archive/YearRoute')
+          return { Component }
         },
       },
       {
-        path: ":year/:month",
+        path: ':year/:month',
         async lazy() {
-          const { MonthPage } = await import("./archive/MonthPage");
-          return { Component: MonthPage };
+          const { Component } = await import('./archive/MonthRoute')
+          return { Component }
         },
       },
       {
-        path: ":year/:month/:day",
+        path: ':year/:month/:day',
         async lazy() {
-          const { DayPage } = await import("./archive/DayPage");
-          return { Component: DayPage };
+          const { Component } = await import('./archive/DayRoute')
+          return { Component }
         },
       },
     ],
   },
   {
-    path: ":id",
+    path: 'detail/:id',
     async lazy() {
-      const { DetailPage } = await import("./DetailPage");
-      return { component: DetailPage };
+      const { Component } = await import('./DetailRoute')
+      return { Component }
     },
   },
-];
+]

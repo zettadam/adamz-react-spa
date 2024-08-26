@@ -3,5 +3,5 @@ export default function AdminPage() {
     <main className="admin-page">
       <h2>Admin Page</h2>
     </main>
-  );
+  )
 }

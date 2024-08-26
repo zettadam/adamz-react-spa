@@ -3,5 +3,5 @@ export default function AdminEditTaskPage() {
     <main className="admin-page admin-tasks-page">
       <h2>Admin Edit Task Page</h2>
     </main>
-  );
+  )
 }

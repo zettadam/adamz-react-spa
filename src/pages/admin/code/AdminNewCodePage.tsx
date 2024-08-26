@@ -3,5 +3,5 @@ export default function AdminNewCodePage() {
     <main className="admin-page admin-code-page">
       <h2>Admin New Code Page</h2>
     </main>
-  );
+  )
 }

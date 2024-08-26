@@ -3,5 +3,5 @@ export default function AdminNewEventPage() {
     <main className="admin-page admin-events-page">
       <h2>Admin New Event Page</h2>
     </main>
-  );
+  )
 }

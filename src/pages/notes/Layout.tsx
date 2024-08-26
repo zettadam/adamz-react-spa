@@ -1,8 +1,8 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from 'react-router-dom'
 
-import "./notes-layout.css";
+import './notes-layout.css'
 
-export function Layout() {
+export function Component() {
   return (
     <div className="notes-layout">
       <nav className="page">
@@ -21,5 +21,5 @@ export function Layout() {
 
       <Outlet />
     </div>
-  );
+  )
 }

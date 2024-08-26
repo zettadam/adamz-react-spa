@@ -3,5 +3,5 @@ export default function AdminDeletePostPage() {
     <main className="admin-posts-page">
       <h2>Admin Delete Post Page</h2>
     </main>
-  );
+  )
 }

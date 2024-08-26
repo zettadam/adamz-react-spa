@@ -1,8 +1,8 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from 'react-router-dom'
 
-import "./posts-layout.css";
+import './posts-layout.css'
 
-export function Layout() {
+export function Component() {
   return (
     <div className="posts-layout">
       <nav className="page">
@@ -20,5 +20,5 @@ export function Layout() {
       </nav>
       <Outlet />
     </div>
-  );
+  )
 }

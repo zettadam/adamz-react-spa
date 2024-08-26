@@ -1,5 +1,5 @@
 export default {
-  path: 'tasks',
+  path: 'calendar',
   async lazy() {
     const { Component } = await import('./Layout')
     return { Component }

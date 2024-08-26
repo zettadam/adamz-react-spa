@@ -3,5 +3,5 @@ export default function AdminDeleteLinkPage() {
     <main className="admin-page admin-links-page">
       <h2>Admin Delete Link Page</h2>
     </main>
-  );
+  )
 }
