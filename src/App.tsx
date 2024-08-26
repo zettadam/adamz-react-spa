@@ -1,15 +1,15 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { MainLayout } from './pages/MainLayout'
-import HomePage from './pages/home/HomePage'
+import { MainLayout } from './routes/MainLayout'
+import HomePage from './routes/home/HomePage'
 
-import adminRoutes from './pages/admin/routes'
-import calendarRoutes from './pages/calendar/routes'
-import codeRoutes from './pages/code/routes'
-import linksRoutes from './pages/links/routes'
-import notesRoutes from './pages/notes/routes'
-import postsRoutes from './pages/posts/routes'
-import tasksRoutes from './pages/tasks/routes'
+import adminRoutes from './routes/admin/routes'
+import calendarRoutes from './routes/calendar/routes'
+import codeRoutes from './routes/code/routes'
+import linksRoutes from './routes/links/routes'
+import notesRoutes from './routes/notes/routes'
+import postsRoutes from './routes/posts/routes'
+import tasksRoutes from './routes/tasks/routes'
 
 import './app.css'
 
