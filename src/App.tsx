@@ -13,30 +13,25 @@ import tasksRoutes from './routes/tasks/routes'
 
 import './app.css'
 
-const router = createBrowserRouter(
-  [
-    adminRoutes,
-    {
-      path: '/',
-      element: <MainLayout />,
-      children: [
-        {
-          index: true,
-          element: <HomePage />,
-        },
-        calendarRoutes,
-        codeRoutes,
-        linksRoutes,
-        notesRoutes,
-        postsRoutes,
-        tasksRoutes,
-      ],
-    },
-  ],
+const router = createBrowserRouter([
+  adminRoutes,
   {
-    basename: '/adamz-react-spa/',
+    path: '/',
+    element: <MainLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      calendarRoutes,
+      codeRoutes,
+      linksRoutes,
+      notesRoutes,
+      postsRoutes,
+      tasksRoutes,
+    ],
   },
-)
+])
 
 function App() {
   return <RouterProvider router={router} />
