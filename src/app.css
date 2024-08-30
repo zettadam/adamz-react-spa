@@ -249,16 +249,21 @@
     & div.page {
       background-color: hsla(0, 0%, 100%, 0.95);
       border-style: solid;
-      border-width: 0.25rem 0 0.0625rem 0;
+      border-width: 0.5rem 0 0.0625rem 0;
       margin-block: 0 10rem;
       margin-inline: 0;
       min-height: 100dvh;
-      padding: 1rem 5dvw;
+      padding-block: 0 1rem;
+      padding-inline: 5dvw;
 
-      & > h2 {
+      & > h2:first-of-type {
         font-family: var(--font-sans-serif);
-        font-size: var(--text-size-3);
+        font-size: var(--text-size-15);
+        font-weight: 900;
+        margin-block: -6.5rem 2rem;
+        opacity: 0.5;
         text-transform: uppercase;
+        pointer-events: none;
       }
     }
 

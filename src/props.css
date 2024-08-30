@@ -1,15 +1,24 @@
 :root {
-  --font-serif: "Lusitana", "Georgia", serif;
-  --font-sans-serif: "Inter", "Helvetica Neue", "Roboto", sans-serif;
+  --font-serif: 'Lusitana', 'Georgia', serif;
+  --font-sans-serif: 'Inter', 'Helvetica Neue', 'Roboto', sans-serif;
 
   --text-size-02: 0.75rem;
   --text-size-01: 0.875rem;
   --text-size-1: 1rem;
-  --text-size-2: 1.25rem;
-  --text-size-3: 1.5rem;
-  --text-size-4: 2rem;
-  --text-size-5: 2.5rem;
-  --text-size-6: 3.75rem;
+  --text-size-2: 1.125rem;
+  --text-size-3: 1.25rem;
+  --text-size-4: 1.5rem;
+  --text-size-5: 1.75rem;
+  --text-size-6: 2rem;
+  --text-size-7: 2.25rem;
+  --text-size-8: 2.625rem;
+  --text-size-9: 3rem;
+  --text-size-10: 3.375rem;
+  --text-size-11: 3.75rem;
+  --text-size-12: 4.25rem;
+  --text-size-13: 4.75rem;
+  --text-size-14: 5.25rem;
+  --text-size-15: 5.75rem;
 
   --radius-1: 0.125rem;
   --radius-2: 0.25rem;
