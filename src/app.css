@@ -152,11 +152,11 @@
       & h2.links {
         background-color: var(--color-links-a50);
       }
-      & h2.tasks {
-        background-color: var(--color-tasks-a50);
+      & h2.labs {
+        background-color: var(--color-labs-a50);
       }
-      & h2.calendar {
-        background-color: var(--color-calendar-a50);
+      & h2.events {
+        background-color: var(--color-events-a50);
       }
 
       & nav.secondary {
@@ -442,20 +442,20 @@
               background-color: var(--color-links);
             }
           }
-          &.tasks {
+          &.labs {
             &:not(.active):hover {
-              color: var(--color-tasks);
+              color: var(--color-labs);
             }
             &.active {
-              background-color: var(--color-tasks);
+              background-color: var(--color-labs);
             }
           }
-          &.calendar {
+          &.events {
             &:not(.active):hover {
-              color: var(--color-calendar);
+              color: var(--color-events);
             }
             &.active {
-              background-color: var(--color-calendar);
+              background-color: var(--color-events);
             }
           }
         }

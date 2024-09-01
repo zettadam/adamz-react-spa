@@ -1,20 +1,18 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { MainLayout } from './routes/MainLayout'
-import HomePage from './routes/home/HomePage'
+import MainLayout from './features/MainLayout'
+import HomePage from './features/home/HomePage'
 
-import adminRoutes from './routes/admin/routes'
-import calendarRoutes from './routes/calendar/routes'
-import codeRoutes from './routes/code/routes'
-import linksRoutes from './routes/links/routes'
-import notesRoutes from './routes/notes/routes'
-import postsRoutes from './routes/posts/routes'
-import tasksRoutes from './routes/tasks/routes'
+import codeRoutes from './features/code/routes'
+import eventsRoutes from './features/events/routes'
+import labsRoutes from './features/labs/routes'
+import linksRoutes from './features/links/routes'
+import notesRoutes from './features/notes/routes'
+import postsRoutes from './features/posts/routes'
 
 import './app.css'
 
 const router = createBrowserRouter([
-  adminRoutes,
   {
     path: '/',
     element: <MainLayout />,
@@ -23,12 +21,12 @@ const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-      calendarRoutes,
       codeRoutes,
+      eventsRoutes,
+      labsRoutes,
       linksRoutes,
       notesRoutes,
       postsRoutes,
-      tasksRoutes,
     ],
   },
 ])

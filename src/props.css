@@ -58,13 +58,13 @@
   --color-links-a25: oklch(40.43% 0.084 293.07 / 25%);
   --color-links-a50: oklch(40.43% 0.084 293.07 / 50%);
 
-  --color-tasks: oklch(47.12% 0.081 226.3);
-  --color-tasks-a125: oklch(47.12% 0.081 226.3 / 12.5%);
-  --color-tasks-a25: oklch(47.12% 0.081 226.3 / 25%);
-  --color-tasks-a50: oklch(47.12% 0.081 226.3 / 50%);
+  --color-labs: oklch(47.12% 0.081 226.3);
+  --color-labs-a125: oklch(47.12% 0.081 226.3 / 12.5%);
+  --color-labs-a25: oklch(47.12% 0.081 226.3 / 25%);
+  --color-labs-a50: oklch(47.12% 0.081 226.3 / 50%);
 
-  --color-calendar: oklch(50.52% 0.081 52.57);
-  --color-calendar-a125: oklch(50.52% 0.081 52.57 / 12.5%);
-  --color-calendar-a25: oklch(50.52% 0.081 52.57 / 25%);
-  --color-calendar-a50: oklch(50.52% 0.081 52.57 / 50%);
+  --color-events: oklch(50.52% 0.081 52.57);
+  --color-events-a125: oklch(50.52% 0.081 52.57 / 12.5%);
+  --color-events-a25: oklch(50.52% 0.081 52.57 / 25%);
+  --color-events-a50: oklch(50.52% 0.081 52.57 / 50%);
 }
