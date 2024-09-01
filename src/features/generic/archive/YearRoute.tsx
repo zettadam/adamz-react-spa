@@ -1,6 +1,6 @@
 import { NavLink, useLocation, useParams } from 'react-router-dom'
 
-export default function ArchiveYearRoute() {
+export function YearRoute() {
   const l = useLocation()
   const { year } = useParams()
 

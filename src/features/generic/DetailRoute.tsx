@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 
-export default function DetailRoute() {
+export function DetailRoute() {
   const { id } = useParams()
   return (
     <div className="page detail">

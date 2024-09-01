@@ -1,6 +1,6 @@
 import './home.css'
 
-export default function HomePage() {
+export function HomePage() {
   return (
     <div className="home">
       <div className="about-me">

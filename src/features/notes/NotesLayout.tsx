@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './notes-layout.css'
 
-export default function NotesLayout() {
+export function NotesLayout() {
   return (
     <div className="notes-layout">
       <nav className="page">

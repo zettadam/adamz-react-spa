@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './labs-layout.css'
 
-export default function LabsLayout() {
+export function LabsLayout() {
   return (
     <div className="labs-layout">
       <nav className="page">

@@ -1,6 +1,6 @@
 import { Link, useLocation, useParams } from 'react-router-dom'
 
-export default function ArchiveMonthRoute() {
+export function MonthRoute() {
   const l = useLocation()
   const { year, month } = useParams()
 

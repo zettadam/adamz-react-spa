@@ -4,7 +4,7 @@ import type { CollectionName } from '~/lib/api'
 
 import PaginatedListBasic from '~/components/PaginatedListBasic'
 
-export default function IndexRoute() {
+export function IndexRoute() {
   const l = useLocation()
   const s = l.pathname.split('/')[1]
 

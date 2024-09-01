@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './code-layout.css'
 
-export default function CodeLayout() {
+export function CodeLayout() {
   return (
     <div className="code-layout">
       <nav className="page">

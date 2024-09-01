@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './events-layout.css'
 
-export default function EventsLayout() {
+export function EventsLayout() {
   return (
     <div className="events-layout">
       <nav className="page">

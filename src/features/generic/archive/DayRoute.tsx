@@ -1,6 +1,6 @@
 import { Link, useLocation, useParams } from 'react-router-dom'
 
-export default function ArchiveDayRoute() {
+export function DayRoute() {
   const l = useLocation()
   const { year, month, day } = useParams()
 

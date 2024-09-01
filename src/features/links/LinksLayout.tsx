@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './links-layout.css'
 
-export default function LinksLayout() {
+export function LinksLayout() {
   return (
     <div className="links-layout">
       <nav className="page">

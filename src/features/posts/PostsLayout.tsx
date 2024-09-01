@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import './posts-layout.css'
 
-export default function PostsLayout() {
+export function PostsLayout() {
   return (
     <div className="posts-layout">
       <nav className="page">

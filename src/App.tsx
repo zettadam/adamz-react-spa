@@ -1,25 +1,28 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import MainLayout from './features/MainLayout'
-import HomePage from './features/home/HomePage'
-
-import codeRoutes from './features/code/routes'
-import eventsRoutes from './features/events/routes'
-import labsRoutes from './features/labs/routes'
-import linksRoutes from './features/links/routes'
-import notesRoutes from './features/notes/routes'
-import postsRoutes from './features/posts/routes'
+import codeRoutes from './features/code/codeRoutes'
+import eventsRoutes from './features/events/eventsRoutes'
+import labsRoutes from './features/labs/labsRoutes'
+import linksRoutes from './features/links/linksRoutes'
+import notesRoutes from './features/notes/notesRoutes'
+import postsRoutes from './features/posts/postsRoutes'
 
 import './app.css'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    async lazy() {
+      const { MainLayout } = await import('./features/MainLayout')
+      return { Component: MainLayout }
+    },
     children: [
       {
         index: true,
-        element: <HomePage />,
+        async lazy() {
+          const { HomePage } = await import('./features/home/HomePage')
+          return { Component: HomePage }
+        },
       },
       codeRoutes,
       eventsRoutes,

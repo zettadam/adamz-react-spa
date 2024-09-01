@@ -1,6 +1,6 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 
-export default function ArchiveLayout() {
+export function ArchiveLayout() {
   const l = useLocation()
   const s = l.pathname.split('/')[1]
 

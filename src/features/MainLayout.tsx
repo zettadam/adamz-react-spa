@@ -1,6 +1,6 @@
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom'
 
-export default function MainLayout() {
+export function MainLayout() {
   const location = useLocation()
   const section = location.pathname.split('/')[1]
 
